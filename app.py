@@ -3,7 +3,7 @@ import torch
 import gradio as gr
 
 # Load the fine-tuned model and tokenizer
-model_name_or_path = "./fine_tuned_model"
+model_name_or_path = "C:\Users\faiza\Downloads\fine_tuned_model"
 model = GPT2LMHeadModel.from_pretrained(model_name_or_path)
 tokenizer = GPT2Tokenizer.from_pretrained(model_name_or_path)
 
